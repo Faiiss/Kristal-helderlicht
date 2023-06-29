@@ -1,0 +1,48 @@
+@import '../abstract/colors';
+.contact-title{
+    text-align: center;
+    color: $white;
+    margin: 0;
+    margin-top: 5rem;
+    font-size: 8rem;
+}
+.contact-section{
+    width: 100%;
+    padding: 5rem;
+}
+div.wpforms-container-full .wpforms-field-label {
+    margin: 0 0 var(--wpforms-field-size-input-spacing) 0;
+    padding: 0;
+    font-size: var(--wpforms-label-size-font-size);
+    line-height: var(--wpforms-label-size-line-height);
+    color: $white;
+    font-size: 3rem;
+    font-weight: 200;
+}
+div.wpforms-container-full input[type=date], div.wpforms-container-full input[type=datetime], div.wpforms-container-full input[type=datetime-local], div.wpforms-container-full input[type=email], div.wpforms-container-full input[type=month], div.wpforms-container-full input[type=number], div.wpforms-container-full input[type=password], div.wpforms-container-full input[type=range], div.wpforms-container-full input[type=search], div.wpforms-container-full input[type=tel], div.wpforms-container-full input[type=text], div.wpforms-container-full input[type=time], div.wpforms-container-full input[type=url], div.wpforms-container-full input[type=week], div.wpforms-container-full select, div.wpforms-container-full textarea {
+    background-color: var(--wpforms-field-background-color);
+    border-radius: var(--wpforms-field-border-radius);
+    color: var(--wpforms-field-text-color);
+    border: 1px solid var(--wpforms-field-border-color);
+    padding: 0 var(--wpforms-field-size-padding-h);
+    font-size: var(--wpforms-field-size-font-size);
+    line-height: 100%;
+    box-shadow: $shadow;
+    transition: border 0.15s, box-shadow 0.15s;
+    border-radius: 2rem;
+}
+.submit-button {
+    background-color: $primary!important;
+    color: var(--wpforms-button-text-color)!important;
+    font-size: 4rem!important;
+    padding: 4rem!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    border-radius: 2rem!important;
+    box-shadow: $shadow!important;
+}
+.submit-button:hover{
+    color: $primary!important;
+    background: $white!important;
+}

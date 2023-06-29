@@ -1,0 +1,177 @@
+@import '../abstract/colors';
+.kristal__landing {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 88%;
+}
+.kristal__section {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+.kristal__article {
+    color: $white;
+    font-weight: 100;
+    margin-left: 10rem;
+    text-align: center;
+}
+
+.kristal__heading {
+    text-align: center;
+    color: $white;
+    text-shadow: $shadow-t;
+    font-size: 10rem;
+}
+
+.kristal__sub {
+    font-size: 3rem;
+    width: 45ch;
+}
+
+.kristal_img {
+    height: 85rem;
+}
+
+.about-me_kristal {
+    position: relative;
+    background: $white;
+    padding: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+.about-me_kristal span{
+    color: $primary;
+}
+.kristal__textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.kristal__title {
+    font-size: 5rem;
+}
+
+.kristal__p {
+    width: 69ch;
+    font-size: 2.5rem;
+    text-align: left;
+}
+.kristal__img {
+    top: 20rem;
+    width: 50rem;
+    right: 10rem;
+}
+.kristal__diensten-b{
+    text-decoration: none;
+    color: $primary!important;
+    background: $white;
+    padding: 2rem;
+    // text-shadow: $shadow-t;
+    font-size: 3rem;
+    border-radius: 5rem;
+    transition: 0.3s ease-in-out;
+    margin-top: 1rem;
+    box-shadow: $shadow;
+}
+.kristal__diensten-b:hover{
+    scale: (1.1);
+}
+.diensten_kristal{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.kristal__cards_list {
+    margin-top: 5rem;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.kristal__cards_list span{
+    font-size: 3.5rem;
+}
+.kristal__card_item{
+    text-align: center;
+    padding: 5rem;
+    background: $white;
+    border-radius: 2rem;
+    list-style: none;
+    width: 50rem;
+    height: 55rem;
+    aspect-ratio: 2/1;
+    box-shadow: $shadow;
+    transition: 0.3s ease-in-out;
+}
+.kristal__card_item:hover{
+    scale: (1.05);
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 13px #f5f5f598;
+}
+
+
+.kristal_producten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.kristal__product-card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.kristal__product-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: $white;
+    padding: 4rem;
+    border-radius: 2rem;
+    box-shadow: $shadow;
+}
+.kristal__product-img{
+    width: 30rem;
+    border-radius: 2rem;
+    box-shadow: $shadow;
+    aspect-ratio: 1/1;
+    transition: 0.3s ease-in-out;
+}
+.kristal__product-img:hover{
+    cursor: pointer;
+    scale: (1.1);
+}
+.kristal__product-title{
+    margin-top: 3rem;
+}
+.add_to_cart_button{
+    text-decoration: none;
+    color: $white!important;
+    background: $primary;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    box-shadow: $shadow;
+    transition: 0.3s ease-in-out;
+}
+.add_to_cart_button:hover{
+    scale: (1.05);
+}

@@ -1,0 +1,21 @@
+@use "./abstract/mixins";
+
+body{
+    background: linear-gradient( to bottom right, #7FC8F2,50%,#761CE2) !important;
+    min-height: 100vh;
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+}
+.site-main{
+    min-height: 100vh;
+}
+a:focus{
+    outline: none;
+}
+#secondary{
+	display:none;
+	}
+
+    .post, .page {
+        margin: 0!important;
+    }

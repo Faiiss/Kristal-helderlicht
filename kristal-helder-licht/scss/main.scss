@@ -1,0 +1,15 @@
+@use "./abstract/reset";
+@use"./components/header";
+@use"./components/footer";
+@use "./base.scss";
+@use"./components/scrollbar";
+
+
+@use"./components/landingpage";
+@use"./components/cart-page";
+@use"./components/single-product";
+@use"./components/product-archive";
+@use"./components/diensten";
+@use"./components/contact";
+
+@use "./abstract/mediaqueries";

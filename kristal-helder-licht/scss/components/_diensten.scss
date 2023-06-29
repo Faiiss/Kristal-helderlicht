@@ -1,0 +1,48 @@
+@import '../abstract/colors';
+
+.kristal__section-diensten {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10rem;
+    flex-direction: column;
+}
+.kristal_diensten-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    width: 80%;
+    gap: 2rem;
+    aspect-ratio: 2/1;
+    margin: 0;
+}
+.kristal_diensten-list-item{
+    background: $white;
+    padding: 5rem;
+    border-radius: 3rem;
+}
+.kristal_diensten-list-item h3{
+    font-size: 4rem;
+    color: $primary;
+}
+.diensten-button{
+    border: none;
+}
+.diensten-cta{
+    padding: 2rem 3rem;
+    background: $black;
+    color: $white;
+    font-size: 2rem;
+    border-radius: 3rem;
+    transition: 0.3s;
+    border: none;
+}
+.diensten-cta:hover{
+    scale: (1.1);
+    cursor: pointer;
+    background: $primary;
+}

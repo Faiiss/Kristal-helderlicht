@@ -1,0 +1,63 @@
+@import '../abstract/colors';
+
+.woocommerce-products-header {
+    margin-top: 10rem;
+}
+
+.woocommerce .products ul,
+.woocommerce ul.products {
+    margin: 0;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 0.5rem;
+
+}
+
+.woocommerce .woocommerce-ordering {
+    margin: 0 0 1em;
+    padding: 1.5rem;
+}
+
+.woocommerce .woocommerce-result-count {
+    color: $white;
+    padding: 1.5rem;
+    text-shadow: $shadow-t;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+    color: #404040;
+    font-family: 'Righteous', sans-serif;
+    line-height: 1.5;
+}
+
+.orderby {
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: 0.3s;
+    box-shadow: $shadow;
+}
+
+.orderby option {
+    font-size: 2rem;
+}
+
+.woocommerce ul.products li.product .star-rating {
+    font-size: .857em;
+    color: $primary;
+}
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: right;
+}

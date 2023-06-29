@@ -1,0 +1,291 @@
+@media (min-width: 320px) and (max-width: 375px) {
+    .kristal__p {
+        width: 16ch;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .about-me_kristal {
+        position: relative;
+        background: #ffffff;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .kristal__sub {
+        font-size: 2rem;
+        width: 27ch;
+    }
+
+    .kristal__card_item {
+        text-align: center;
+        padding: 5rem;
+        background: #ffffff;
+        border-radius: 2rem;
+        list-style: none;
+        width: 30rem;
+        height: 106rem;
+        aspect-ratio: 2/1;
+        box-shadow: 0px 9px 14px 5px rgba(0, 0, 0, 0.1882352941);
+        transition: 0.3s ease-in-out;
+    }
+
+    .kristal__cards_list span {
+        font-size: 2rem;
+    }
+
+    .kristal__sub {
+        font-size: 2rem;
+        width: 20ch;
+        margin: 0;
+        margin-right: 0;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .main-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .kristal__p {
+        width: 25ch;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .kristal__article {
+        color: #ffffff;
+        font-weight: 100;
+        margin-left: 1.3rem;
+        text-align: center;
+    }
+    .kristal__heading {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 0px 8px 11px rgba(0, 0, 0, 0.3);
+        font-size: 6rem;
+        margin-bottom: 5rem;
+    }
+    .kristal__cards_list {
+        margin-top: 5rem;
+        gap: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0;
+        padding: 2rem;
+    }
+    .kristal__product-card-list {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .site-header {
+        background-color: #ffffff;
+        padding: 27px;
+        border-radius: 0rem 0rem 5rem 5rem;
+        box-shadow: 0px 9px 14px 5px rgba(0, 0, 0, 0.19);
+        gap: 0.5rem;
+    }
+    .kristal__cards_list span {
+        font-size: 4rem;
+    }
+    .kristal_img{
+        display: none;
+    }
+    .kristal__landing {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 88%;
+        align-content: center;
+    }
+    .contact-title {
+        text-align: center;
+        color: #ffffff;
+        margin: 0;
+        margin-top: 5rem;
+        font-size: 4rem;
+    }
+    .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+        width: 95%;
+        float: left;
+        clear: both;
+        margin: 0 0 2.992em;
+    }
+    .kristal_diensten-list-item h3 {
+        font-size: 2.7rem;
+        color: #761CE2;
+        margin-bottom: 2rem;
+    }
+    .woocommerce-product-gallery__image {
+        width: 82%;
+        background: #ffffff;
+        padding: 5rem;
+        border-radius: 5rem;
+        margin-left: 3rem;
+    }
+    .woocommerce .products ul, .woocommerce ul.products {
+        margin: 0;
+        padding: 0;
+        list-style: none outside;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .submit-button {
+        background-color: #761CE2 !important;
+        color: var(--wpforms-button-text-color) !important;
+        font-size: 3rem !important;
+        padding: 4rem !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 2rem !important;
+        box-shadow: 0px 9px 14px 5px rgba(0, 0, 0, 0.1882352941) !important;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+    .woocommerce ul.products[class*=columns-] li.product,
+    .woocommerce-page ul.products[class*=columns-] li.product {
+        width: 80%;
+        float: left;
+        clear: both;
+        margin: 0 0 2.992em;
+    }
+
+    .kristal__landing {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .kristal__heading {
+        font-size: 8rem;
+        margin-top: 5rem;
+    }
+
+    .kristal__sub {
+        font-size: 2rem;
+        width: 30ch;
+    }
+
+    .kristal_img {
+        height: auto;
+    }
+
+    .kristal__article {
+        font-weight: 100;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-me_kristal {
+        position: relative;
+        background: #ffffff;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .kristal__p {
+        width: 22ch;
+        font-size: 2.5rem;
+        text-align: left;
+    }
+
+    .kristal__product-card-list {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .kristal__product-cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem;
+        border-radius: 2rem;
+    }
+
+    .kristal__product-title {
+        margin-top: 3rem;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .kristal__cards_list {
+        margin-top: 5rem;
+        gap: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        flex-direction: row;
+    }
+
+    .kristal__card_item {
+        text-align: center;
+        padding: 5rem;
+        background: #ffffff;
+        border-radius: 2rem;
+        list-style: none;
+        width: 35rem;
+        height: 70rem;
+        aspect-ratio: 2/1;
+    }
+
+    .kristal__card_item>P {
+        font-size: 1.8rem;
+    }
+
+    .kristal__diensten-b {
+        text-decoration: none;
+        padding: 1rem;
+        width: 37rem;
+        font-size: 3rem;
+        border-radius: 5rem;
+        transition: 0.3s ease-in-out;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}

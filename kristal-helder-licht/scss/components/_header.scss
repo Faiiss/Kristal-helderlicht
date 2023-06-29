@@ -1,0 +1,110 @@
+@import '../abstract/colors';
+@import '/css/bootstrap/dist/css/bootstrap.css';
+
+header {
+  position: relative;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: $white;
+  padding: 28px 12%;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.site-header {
+  background-color: $white;
+  padding: 10px;
+  border-radius: 0rem 0rem 5rem 5rem;
+  box-shadow: 0px 9px 14px 5px rgba(0, 0, 0, 0.19);
+  gap: 0.5rem;
+}
+
+.logo {
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5rem;
+  // margin-left: 15rem;
+}
+
+.main-menu li {
+  gap: 5rem;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: $primary;
+  transition: 0.3s ease;
+  font-size: 2rem;
+}
+
+.main-menu li a:hover {
+  color: $black;
+  font-size: 1.8rem;
+}
+
+.icons {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.icons a {
+  color: $primary;
+  text-decoration: none;
+}
+
+.bi-bag-fill {
+  color: $black;
+}
+
+.bi-bag-fill,
+.bi-person {
+  font-size: 3rem;
+}
+
+.bi-person {
+  font-size: 3.5rem;
+}
+
+.bi-person::before {
+  content: "Login";
+}
+
+.aws-container .aws-search-form *, .aws-search-result {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-hyphens: manual;
+  -webkit-hyphens: manual;
+  hyphens: manual;
+  border-radius: 2rem!important;
+}
+.entry-header{
+  margin-top: 10rem;
+}
